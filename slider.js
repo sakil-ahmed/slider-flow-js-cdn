@@ -32,7 +32,7 @@ var Flowappz=function(){"use strict";function e(e){return null!==e&&"object"==ty
     link.setAttribute("data-type", "flowappz-slider-css");
     link.setAttribute(
       "href",
-      "https://cdn.jsdelivr.net/gh/sakil-ahmed/css-cdn-script@v0.0.2/app.css",
+      "https://cdn.jsdelivr.net/gh/sakil-ahmed/slider-flow-css-cdn@v0.0.3/app.css",
     );
     document.getElementsByTagName("head")[0].appendChild(link);
   }
@@ -68,7 +68,7 @@ var Flowappz=function(){"use strict";function e(e){return null!==e&&"object"==ty
         configData.name = new Flowappz(slider, configData.config);
 
         console.log(configData);
-        
+
       }
     });
   });
